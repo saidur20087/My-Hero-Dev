@@ -36,6 +36,7 @@ nav .menu a {
     cursor: pointer;
 }
 
+
 .color-orange {
     color: #FD6E0A;
 }
@@ -247,3 +248,40 @@ nav {
 .resume-container hr {
     margin: 40px 0;
 }
+
+/* Contact */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    background: #FFF8F3;
+  }
+
+  .contact h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-top: 20px;
+    justify-content: left;
+}
+
+.contact .imge-icon {
+    margin-top: 30px;
+}
+
+  form {
+    width: 40%;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+     }
