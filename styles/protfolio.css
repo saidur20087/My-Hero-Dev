@@ -35,6 +35,10 @@ nav .menu a {
     font-weight: bold;
     cursor: pointer;
 }
+#resume .education .btn {
+    justify-content: center;
+align-items: center;
+}
 
 
 .color-orange {
@@ -153,6 +157,7 @@ nav {
 
 }
 
+
 .section-heading {
     text-align: center;
     margin-bottom: 70px;
@@ -205,12 +210,15 @@ nav {
 }
 
 /* Resume Section */
+
+
 #resume .resume-container {
     width: 71%;
     max-width: 1140px;
     margin: 113px auto 0;
     display: flex;
     gap: 24px;
+  justify-content: space-between;
 
 }
 
@@ -247,6 +255,13 @@ nav {
 
 .resume-container hr {
     margin: 40px 0;
+}
+
+.button-btn {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;      
+    margin-bottom: 20px;
 }
 
 /* Contact */
