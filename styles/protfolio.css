@@ -35,6 +35,7 @@ nav .menu a {
     font-weight: bold;
     cursor: pointer;
 }
+
 #resume .education .btn {
     justify-content: center;
 align-items: center;
@@ -104,10 +105,11 @@ nav {
     margin-bottom: 30px;
 }
 
-.banner-image img {
-    max-width: 785px;
+#banner .banner-image img {
+    max-width: 484px;
     vertical-align: middle;
-}
+    margin-top: 240px;
+    }
 
 
 
